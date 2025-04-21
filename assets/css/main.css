@@ -2109,8 +2109,22 @@ input, select, textarea {
 		padding: 6em 0;
 	}
 
-		#features p {
-			text-align: center;
+		#features .row p {
+			text-align: left;
+			margin-bottom: 1rem;
+		}
+
+		#features strong {
+			color: black;
+		}
+
+		#features li {
+			text-align: left;
+			margin: 0;
+		}
+
+		#features ul {
+			margin-bottom: 15px;
 		}
 
 		#features ul.actions {
@@ -2130,18 +2144,21 @@ input, select, textarea {
 		box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
 		position: relative;
 		text-transform: uppercase;
-		background: url("../../images/banner.jpg");
+		background-image: url("../../images/banner-image.jpeg");
+		background-blend-mode: multiply;
+		background-color: rgba(0, 0, 0, 0.3);
 		background-size: cover;
 		padding: 10em 0;
 	}
 
 		#banner p {
 			font-weight: 400;
-			font-size: 2em;
+			font-size: 4rem;
 			line-height: 1.5em;
 			letter-spacing: 4px;
 			text-align: center;
 			margin: 0;
+			text-shadow: 0 1px 1px black;
 		}
 
 		#banner strong {
