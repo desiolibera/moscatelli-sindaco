@@ -1950,10 +1950,11 @@ input, select, textarea {
 			}
 
 		#header p {
-			text-transform: uppercase;
+			text-transform: downcase;
+			font-family: 'ArnoPro';
 			font-weight: 400;
 			color: #888;
-			margin: 2.5em 0 0 0;
+			margin: -60px 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
 			text-align: center;
